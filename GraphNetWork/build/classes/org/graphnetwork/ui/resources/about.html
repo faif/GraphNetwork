@@ -1,0 +1,73 @@
+<!--
+    Copyright (C) 2006, 2007  Alexander Technological Educational Institute of Thessaloniki
+
+    This file is part of the GraphNetwork applet.
+
+    The GraphNetwork applet is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    The GraphNetwork applet is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with the IS lab; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+-->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <title>Alexander Technological Educational Institute Of Thessaloniki - Department Of Informatics</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+
+  <body class="mainbackgroundcolor">
+    <div class="bodytext">
+      <p><b>Graph:</b> Create graphs and display graph information.</p> 
+
+      <p><b>Graph => Create random graph:</b> Use this opion to create a  graph with a random number of vertices and edges.</p>
+
+      <p><b>Graph => Display weights:</b> This option is enabled after the creation of a graph. It opens a small window which displays the weights of the edges of the graph.</p>
+
+      <p><b>Algorithms:</b> Execute various graph algorithms. This menu is enabled after the creation of a graph.</p>
+
+      <p><b>Algorithms => Best path:</b> Algorithms which try to find the best path between two vertices by using the weight of the edges as a factor.</p>
+
+      <p><b>Algorithms => Best path => Bellman-Ford:</b> Opens a window to choose the source and destination vertex, and if "Show" is pressed, executes the Bellman-Ford algorithm, and displays the results in a new window.</p>
+
+      <p><b>Algorithms => Best path => Dijkstra:</b> Opens a window to choose the source and destination vertex, and if "Show" is pressed executes Dijkstra's Shortest Path First algorithm, and displays the results in a new window.</p>
+
+      <p><b>Algorithms => Traversal:</b> Graph traversal algorithms, which do not use the weight of the edges as a factor when trying to find the best path.</p>
+
+      <p><b>Algorithms => Traversal => DFS:</b> Opens a window to choose the source and destination vertex, and if "Show" is pressed executes the Depth First Search traversal algorithm, and displays the results in a new
+	window.</p>
+
+      <p><b>Algorithms => Traversal => BFS:</b> Opens a window to choose the source and destination vertex, and if "Show" is pressed executes the Breadth First Search traversal algorithm, and displays the results in a new window.
+
+	<p><b>Help:</b> Various help resources.</p>
+
+	<p><b>Help => Quick usage:</b> This menu.</p>
+
+	<p><b>Help => About:</b> Various information related with GraphNetwork (creator, license, etc).</p>
+
+	<p>After the creation of a graph, you can right click any of the vertices or edges, and a popup menu with useful control options will apear:</p>
+
+	<p><b>Right click an edge => Hide Edge:</b> Use this option to hide an edge. Note that edges are always directed, so you must hide an edge from both side to make it invisible.</p>
+
+	<p><b>Left click a vertex:</b> Only the directly connected vertices with this vertex remain visible, all the others are collapsed.</p>
+
+	<p><b>Right click a vertex => Expand Node:</b> Expands the vertex, if it is collapsed.</p>
+
+	<p><b>Right click a vertex => Hide Node:</b> Hides the vertex.</p>
+
+	<p><b>Right click a vertex => Center Node:</b> Moves the vertex to the central point of the graph.</p>
+    </div>
+
+  </body>
+</html>
